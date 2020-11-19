@@ -29,6 +29,12 @@ html,body{
     height: 275px;
 }
 
+.portfolio {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
 .portfolio img {
     width: 250px;
 }
