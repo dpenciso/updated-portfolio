@@ -26,7 +26,11 @@ html,body{
 
 .avatar img {
     width: 250px;
-    height: auto;
+    height: 275px;
+}
+
+.portfolio img {
+    width: 250px;
 }
 
 .main-text {
