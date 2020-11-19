@@ -40,6 +40,11 @@ html,body{
     text-decoration: underline;
 }
 
+.in-line-link-dark {
+    color: #343a40;
+    text-decoration: underline;
+}
+
 .main-text h2 {
     text-align: center;
     text-decoration: underline;
@@ -87,4 +92,34 @@ footer p {
     margin: 0;
     padding: 1rem;
     text-align: center;
+}
+
+.portfolio-container {
+    margin: 5rem 0 ;
+}
+
+.section-header {
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.assets-div img {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.prototype-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.prototype-buttons button {
+    margin: .5rem;
 }
