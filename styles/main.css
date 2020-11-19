@@ -1,0 +1,90 @@
+* {
+    color: #343a40;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.header h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.avatar img {
+    width: 250px;
+}
+
+.main-text {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem;
+    margin-top: 5rem;
+}
+
+.in-line-link {
+    color: white;
+    text-decoration: underline;
+}
+
+.main-text h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.main-text p {
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-list {
+    text-align: center;
+}
+
+.card-list ul {
+    padding: 0;
+}
+
+.card-list ul li {
+    list-style-type: none;
+}
+
+footer {
+    background-color: #343a40;
+    margin: 0;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5rem 0rem 5rem;
+}
+
+footer h1 i {
+    color: white;
+}
+
+footer p {
+    color: white;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
