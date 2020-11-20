@@ -1,137 +1,231 @@
 * {
-    color: #343a40;
-    font-family: 'Rajdhani', sans-serif;
+  color: #343a40;
+  font-family: "Rajdhani", sans-serif;
 }
 
-html,body{
-    overflow-x: hidden;
+html,
+body {
+  overflow-x: hidden;
 }
 
 .header {
-    display: flex;
-    justify-content: center;
-    margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
 }
 
 .header h1 {
-    text-align: center;
-    padding: 1rem;
+  text-align: center;
+  padding: 1rem;
 }
 
 .avatar {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
 }
 
 .avatar img {
-    width: 250px;
-    height: 275px;
+  width: 250px;
+  height: 275px;
 }
 
 .portfolio {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
 }
 
 .portfolio img {
-    width: 250px;
-    height: 255px;
+  width: 250px;
+  height: 255px;
+}
+
+.contact-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.contact-icon img {
+  width: 250px;
+  height: 250px;
 }
 
 .main-text {
-    background-color: #343a40;
-    color: white;
-    padding: 1rem;
-    margin-top: 5rem;
+  background-color: #343a40;
+  color: white;
+  padding: 1rem;
+  margin-top: 5rem;
 }
 
 .in-line-link {
-    color: white;
-    text-decoration: underline;
+  color: white;
+  text-decoration: underline;
+}
+
+.in-line-link:hover {
+  color: #13bfe6;
 }
 
 .in-line-link-dark {
-    color: #343a40;
-    text-decoration: underline;
+  color: #343a40;
+  text-decoration: underline;
 }
 
 .main-text h2 {
-    text-align: center;
-    text-decoration: underline;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .main-text p {
-    color: white;
-    font-size: 1.5rem;
-    padding: 1rem;
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.custom-card {
+  margin: 1rem 0;
 }
 
 .card-title {
-    text-align: center;
+  text-align: center;
 }
 
 .card-list {
-    text-align: center;
+  text-align: center;
 }
 
 .card-list ul {
-    padding: 0;
+  padding: 0;
 }
 
 .card-list ul li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 footer {
-    background-color: #343a40;
-    margin: 0;
+  background-color: #343a40;
+  margin: 0;
 }
 
 .socials {
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem 5rem 0rem 5rem;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 5rem 0rem 5rem;
+}
+
+.socials a {
+  padding: 0 2rem;
 }
 
 footer h1 i {
-    color: white;
+  color: white;
 }
 
 footer p {
-    color: white;
-    margin: 0;
-    padding: 1rem;
-    text-align: center;
+  color: white;
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+.custom-icon {
+  color: white;
 }
 
 .portfolio-container {
-    margin: 5rem 0 ;
+  margin: 5rem 0;
 }
 
 .section-header {
-    text-align: center;
+  text-align: center;
 }
 
 .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .assets-div img {
-    width: 100%;
-    margin: 1rem 0;
+  width: 100%;
+  margin: 1rem 0;
 }
 
 .prototype-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 1rem;
 }
 
 .prototype-buttons button {
-    margin: .5rem;
+  margin: 0.5rem;
 }
+
+.contact-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn-primary {
+    background-color: #343a40;
+    color: white;
+    border: #343a40;
+}
+
+.btn-primary:hover {
+    background-color: #13bfe6;
+}
+
+@media only screen and (min-width: 576px) {
+  .main-text {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .portfolio-container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .custom-row {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .custom-skills {
+      height: 100%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .main-text {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+
+  .portfolio-container {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+
+  .custom-row {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+}
+
+@media only screen and (min-width: 1472px) {
+    .design-card-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .design-card-container .card {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+  }
